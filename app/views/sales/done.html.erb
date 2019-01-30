@@ -1,0 +1,9 @@
+<h1>Estoy redenderiado</h1>
+
+<% @sales.each do |sale| %>
+ <h1> <%= sale.cod %></h1>
+ <%= sale.tax %>
+
+<%end %>
+<%= link_to 'crate', sales_new_path %>
+<%# añadir tabla %>
